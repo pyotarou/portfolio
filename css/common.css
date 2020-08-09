@@ -1,0 +1,53 @@
+html {
+    background-color: #c0c0c0;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+header ul li{
+    margin: auto;
+    width: 100px;
+}
+
+header ul li a {
+    padding: 20% 0;
+    text-align: center;
+    display: block;
+}
+
+header li :hover{
+    background-color: rgb(185, 185, 185);
+}
+
+.global-nav {
+    margin: 0 0 0 auto;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 70px;
+
+}
