@@ -1,20 +1,26 @@
 html {
-    background-color: #c0c0c0;
+    background-color: rgb(50, 50, 50);
+    color: #e1e1e1;
 }
 
+/*********************************
+ global navigation 
+**********************************/
 header {
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
+    background-color: rgb(24, 24, 24);
     top: 0;
     padding: 0 4%;
-    display: flex;
     align-items: center;
 }
 
 header h1{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+    width: 100%;
+    line-height: 500px;
+    display: block;
+    text-align: center;
 }
 
 header ul {
@@ -25,29 +31,54 @@ header ul {
 
 header ul li{
     margin: auto;
-    width: 100px;
+    width: 20%;
 }
 
 header ul li a {
-    padding: 20% 0;
+    padding: 25px 0;
     text-align: center;
     display: block;
 }
 
 header li :hover{
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(56, 56, 56);   
+    transition: background-color .5s;
 }
 
 .global-nav {
     margin: 0 0 0 auto;
 }
 
+/*********************************
+ footer style
+**********************************/
 footer {
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
+    background-color: rgb(24, 24, 24);
+    position: relative;
     bottom: 0;
     text-align: center;
     line-height: 70px;
+}
 
+/*********************************
+ contents style
+**********************************/
+
+.contents {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.contents h1 {
+    font-size: 20px;
+    margin: 10px 0; 
+    padding: 0px 10px;
+    border-left: thick solid #e1e1e1;
+    font-weight: bold;
+}
+
+.contents section {
+    margin: 30px 0;
 }
